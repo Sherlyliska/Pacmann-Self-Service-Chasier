@@ -71,3 +71,26 @@ Untuk membuat sistem kasir yang self-service, Programmer membutuhkan beberapa fu
 ![6](https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/a5c43023-9ef1-476e-83ff-7c42e940f441)
 ### 8. Jika ingin menginputkan auto atau otomatis, pada file modul_main.py diluar class bisa di inisialisasikan objek trnsct_123 dan gunakan fungsi menu()
 ![7](https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/7dc7bd50-4614-4e12-a862-a2d3de550b4d)
+
+# Hasil Test Case
+1. Inisialisasi objek trnsct_123 yang akan melakukan transaksi
+* <img width="748" alt="objek" src="https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/ad3d269e-0af8-42e4-a324-27b2f97375db">
+2. Menambahkan barang ke keranjang dan menampilkan isi keranjang
+* <img width="729" alt="add_item" src="https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/d480435f-d449-4b2f-886a-9f8d95c7c7e3">
+3. Menghapus barang berdasarkan nama, dan menampilkan isi keranjang setelah penghapusan
+* <img width="1016" alt="delete_item" src="https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/d488b59b-d171-437a-afdd-c27748774512">
+4. Mereset semua barang dan menampilkan keranjang kosong
+* <img width="1230" alt="reset item" src="https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/ea04666d-2b66-4462-92b3-355197fc8509">
+5. Menghitung total belanja yang harus dibayarkan customer
+* <img width="1186" alt="total" src="https://github.com/zach782/Pacmann-Self-Service-Cashier/assets/85173256/f3f09205-dc92-4635-b0e5-f6897be4f9a4">
+
+
+# Kesimpulan
+Andi sebagai pemilik supermarket ingin meningkatkan proses bisnis dengan membuat sistem kasir self-service. Hal ini bertujuan untuk memudahkan pelanggan berbelanja dan memungkinkan pelanggan di luar kota untuk berbelanja di supermarket tersebut. Untuk memenuhi kebutuhan Andi, programmer membuat beberapa fungsi dalam sistem kasir self-service, seperti menambah item menggunakan fungsi add_item, memperbarui detail item menggunakan fungsi update_item, menghapus item menggunakan fungsi delete_item, memeriksa pesanan mengunakan fungsi check_order, menghapus semua transaksi menggunakan fungsi reset_transaction dan menghitung total harga menggunakan fungsi total_price.
+Terdapat alur atau flowchart yang menjelaskan bagaimana pelanggan dapat melakukan transaksi menggunakan sistem kasir self-service. Alur tersebut mencakup langkah-langkah seperti memilih menu, mengisi identitas barang, mengubah detail barang, menghapus barang, dan lainnya. Sehingga dapat disimpulkan bahwa sistem kasir self-service di supermarket Andi akan memungkinkan pelanggan untuk berbelanja dengan lebih efisien dan praktis. 
+
+# Saran Pengembangan
+* Menghubungkan program dengan media penyimpanan Database.
+* Mengembangkan program dengan implemetasi barcode pada pembayaran.
+* Perbaikan lainnya mungkin akan ditemukan oleh beberapa user.
+
